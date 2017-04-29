@@ -1,0 +1,32 @@
+
+1. I put the order of suit as the order you asking for: d == diamonds, s == spades, c == clubs, h == hearts (sort in this order d,s,c,h)
+
+
+2. Even-though J<Q<K : but their value is card is equal 10:  
+J = Jack (10), Q = Queen (10), K = King (10), A = Ace (11) 
+ 
+3. If we have a Jack, Queen, King, or Ace with any suit- Jack = 10, Queen = 20, King = 30, Ace = 40 (Following your instruction:
+
+* Jack < Queen
+* Queen < King
+* King < Ace (so Ace is the highest value, therefore I couldn’t value Ace is 1 like in real life)
+
+ ***** Because Quick Sort is ascending sort order, so I placed the value of Jack is 20, Q = 40, K= 60, and Ace = 80 (instead of placed value of J =11, Q=12, K=13, and A=14)to easily see the difference !!!
+
+
+4. String to array input by comma (“,”)
+
+5. Separate by suits into individual arrays, then using swap function to minimize the number of swaping suit array to reach the corerect ordering
+
+6. For each item in our pushed array we need to look at first our suits and run quick sort on the values
+
+7. Using QuickSort implemented Hoare’s partition scheme because it does three times fewer swaps on average, and it creates efficient partitions even when all values are equal.
+
+9. Now that we have suits sorted into separate arrays and values sorted within those arrays we can build a new string by iterating each item
+
+
+
+
+
+
+
